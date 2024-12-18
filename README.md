@@ -46,7 +46,7 @@ Forwards a message to NotificationQueue.
 Notification Consumer:
 Sends an email notification to the user.
 3. Architecture
-POST /payment  -->  PaymentQueue --> [Payment Consumer] --> NotificationQueue --> [Notification Consumer] --> Email Sent
+POST /payment  ->  PaymentQueue -> [Payment Consumer] -> NotificationQueue -> [Notification Consumer] -> Email Sent
 
 # Assumptions
 SMTP credentials are provided for email functionality.
