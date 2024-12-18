@@ -1,0 +1,20 @@
+{
+  "name": "payment-workflow",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["payment", "rabbitmq", "microservices"],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "Payment workflow using RabbitMQ and nodemailer",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "nodemailer": "^6.9.16"
+  }
+}
+
