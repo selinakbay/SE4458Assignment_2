@@ -57,18 +57,3 @@ Emails are sent in plaintext for simplicity.
 Relative Path Errors: Fixed by ensuring proper paths in require statements.
 Environment Variable Management: Used dotenv for secure credential management.
 
-# Folder Structure
-bash
-Kodu kopyala
-SE4458Assignment_2/
-│
-├── src/
-│   ├── app.js              # Main server file
-│   ├── consumers.js        # RabbitMQ consumers
-│   ├── rabbitmq.js         # RabbitMQ connection setup
-│   ├── routes.js           # API routes
-├── .env                    # Environment variables
-├── Dockerfile              # Docker configuration for the app
-├── docker-compose.yml      # Runs RabbitMQ and the app
-├── package.json            # Project dependencies
-└── README.md               # Project documentation
